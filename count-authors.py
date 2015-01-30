@@ -15,10 +15,22 @@ def append_last_name_authors(author_list, last_names):
         last_name = author.split(',')[0].strip()
         last_names.append(last_name)
 
+def count_items(items):
+    '''Counts the number of times each item appears in a list'''
+    result = {}
+    for item in items:
+        if item in result.keys():
+            result[item] += 1
+        else:
+            result[item] = 1
+    return result
+
 last_names = []
 with open(filename, 'r') as raw:
     reader = csv.reader(raw)
     for line in reader:
         authors_list = line[3].split(';')
         append_last_name_authors(authors_list, last_names)
-print last_names
+
+author_counts = count_items(last_names)
+print author_counts
