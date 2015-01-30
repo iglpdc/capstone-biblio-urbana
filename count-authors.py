@@ -33,4 +33,6 @@ with open(filename, 'r') as raw:
         append_last_name_authors(authors_list, last_names)
 
 author_counts = count_items(last_names)
+max_times_authored = max(author_counts.values())
+print max_times_authored
 print author_counts
