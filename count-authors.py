@@ -1,11 +1,11 @@
-# Counts line in a file
+'''Counts how many times someone has authored a paper'''
 import sys
 import csv
 
 filename = sys.argv[1]
 
 def append_last_name_authors(author_list, last_names):
-    '''Get last name from author list'''
+    '''Append author's last name to a list'''
     for author in author_list:
         last_name = author.split(',')[0].strip()
         last_names.append(last_name)
