@@ -15,7 +15,7 @@ file in the spreadsheet uses commas to separate names in multi-author papers.
 
 The author with more papers is 'Bengio' at 261 counts.
 
-## Questions
+## Challenges
 
 -Why the "O'Reilly" has double quotes while 'McClelland' has single quotes?
 -Modify the script to solve ties, i.e. when several authors have the same
