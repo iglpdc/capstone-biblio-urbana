@@ -13,6 +13,6 @@ file in the spreadsheet uses commas to separate names in multi-author papers.
 
 ## Questions
 
--Why the "O'Reilly" has double quotes while 'McClean' has single quotes?
+-Why the "O'Reilly" has double quotes while 'McClelland' has single quotes?
 
 
