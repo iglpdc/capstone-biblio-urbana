@@ -2,4 +2,9 @@
 import sys
 filename = sys.argv[1]
 
-print filename
+count = 0
+with open(filename, 'r') as reader:
+    for line in reader:
+        count += 1
+
+print count
