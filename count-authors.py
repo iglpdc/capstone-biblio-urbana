@@ -1,4 +1,9 @@
-'''Counts how many times someone has authored a paper'''
+'''Counts how many times someone has authored a paper
+
+Usage: count-authors.py <biblio.csv>
+Parameters:
+    biblio.csv: a csv file with bibliograpy
+'''
 import sys
 import csv
 
