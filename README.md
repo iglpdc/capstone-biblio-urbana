@@ -19,7 +19,7 @@ The author with more papers is 'Bengio' at 261 counts.
 
 - Why the "O'Reilly" has double quotes while 'McClelland' has single quotes?
 - Modify the script to solve ties, i.e. when several authors have the same
-number of publications. You could defensive programming here: 
+number of publications. You could use defensive programming here: 
     - make a new test case with just two rows from the biblio with one author papers. 
     - modify the bash script to trun both test cases.
     - modify the python script until you get both names for the tie.
